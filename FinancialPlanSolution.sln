@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialPlan.Domain", "src\FinancialPlan.Domain\FinancialPlan.Domain.csproj", "{43DFFBA5-AA85-49C6-B0B5-B2331FFAE5E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialPlan.DataAccess", "src\FinancialPlan.DataAccess\FinancialPlan.DataAccess.csproj", "{985467C8-43F3-497F-A72D-0648EA133F8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +17,15 @@ Global
 		{43DFFBA5-AA85-49C6-B0B5-B2331FFAE5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43DFFBA5-AA85-49C6-B0B5-B2331FFAE5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43DFFBA5-AA85-49C6-B0B5-B2331FFAE5E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{985467C8-43F3-497F-A72D-0648EA133F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{985467C8-43F3-497F-A72D-0648EA133F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{985467C8-43F3-497F-A72D-0648EA133F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{985467C8-43F3-497F-A72D-0648EA133F8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC60ADFB-79F7-44A2-8601-F310122FA52B}
 	EndGlobalSection
 EndGlobal

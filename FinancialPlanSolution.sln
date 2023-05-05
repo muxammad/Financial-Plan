@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialPlan.Domain", "src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialPlan.DataAccess", "src\FinancialPlan.DataAccess\FinancialPlan.DataAccess.csproj", "{985467C8-43F3-497F-A72D-0648EA133F8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialPlan.Service", "src\FinancialPlan.Service\FinancialPlan.Service.csproj", "{04865423-B282-4226-BF97-EB5CE0965741}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{985467C8-43F3-497F-A72D-0648EA133F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{985467C8-43F3-497F-A72D-0648EA133F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{985467C8-43F3-497F-A72D-0648EA133F8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04865423-B282-4226-BF97-EB5CE0965741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04865423-B282-4226-BF97-EB5CE0965741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04865423-B282-4226-BF97-EB5CE0965741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04865423-B282-4226-BF97-EB5CE0965741}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
